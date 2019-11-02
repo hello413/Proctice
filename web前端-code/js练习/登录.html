@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function checkRegisterForm() {
+            var usrname = document.getElementById('username');
+            var status = 0;
+            var gz = /^[_0-9a-zA-Z]{3,10}$/;
+            var pwd1 = document.getElementById('password');
+            var pwd2 = document.getElementById('password-2');
+            if (gz.test(usrname.value) == true && gz.test(usrname.value) == true && gz.test(usrname.value) == true && gz.test(usrname.value) == true && (pwd1.value.length >= 6 && pwd1.value.length <= 20) && (pwd1.value == pwd2.value)) {
+                console.log(function() {
+                    status = 0,
+                        msg = '注册成功',
+                })
+            } else {
+                console.log();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form id="test-register" action="#" target="_blank" onsubmit="return checkRegisterForm()">
+        <p id="test-error" style="color:red"></p>
+        <p>
+            username: <input type="text" id="username" name="username">
+        </p>
+        <p>
+            password: <input type="password" id="password" name="password">
+        </p>
+        <p>
+            cpassword: <input type="password" id="password-2">
+        </p>
+        <p>
+            email: <input type="text" id="email">
+        </p>
+        <p>
+            <button type="submit">提交</button> <button type="reset">重置</button>
+        </p>
+    </form>
+</body>
+
+</html>

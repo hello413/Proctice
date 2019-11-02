@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #menu {
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+        #menu ul li {
+            width: 50px;background-color:pink;
+            text-align: center;
+            margin-right: 5px;
+            float: left;
+            list-style: none;
+        }
+
+        #menu ul li a {
+            text-decoration: none;
+        }
+        
+
+        #menu ul .current{
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li class='current'><a href="javascript:void(0)">首页</a></li>
+            <li><a href="javascript:void(0)">博客</a></li>
+            <li><a href="javascript:void(0)">播客</a></li>
+            <li><a href="javascript:void(0)">相册</a></li>
+            <li><a href="javascript:void(0)">关于</a></li>
+            <li><a href="javascript:void(0)">帮助</a></li>
+        </ul>
+    </div>
+
+    <script>
+        var menu = document.getElementById("menu");
+
+        var ul = menu.firstElementChild;
+
+        for(var i = 0;i< ul.children.length;i++)
+        {
+            var li=ul.children[i];
+
+            var link = li.firstElementChild;
+            link.onclick = linkClick;
+        }
+
+        function linkClick() {
+
+            for(var i = 0;i < ul.children.length;i++)
+            {
+                var li = ul.children[i];
+                li.className = '';
+            }
+
+            this.parentNode.className = 'current';
+
+            return false;
+        }
+    </script>
+</body>
+</html>
