@@ -230,17 +230,6 @@ day17
 >    编程实现。 
 
 
-day16
-
-> 1. 实现strcpy 
-> 2. 实现strcat 
-> 3. 实现strstr
-> 4. 实现strchr
-> 5. 实现strcmp
-> 6. 实现memcpy 
-> 7. 实现memmove
-> 8. 模拟实现strcpy。
-> 9. 模拟实现strcat。
 
 day18
 
@@ -248,8 +237,3 @@ day18
 >
 > ![gif](https://wx4.sinaimg.cn/mw690/006wR0dcly1fxtnuwt5lmg308w06owiu.gif)
 
-day19
-
-> 1. 模拟实现strncpy 
-> 2. 模拟实现strncat 
-> 3. 模拟实现strncmp 
