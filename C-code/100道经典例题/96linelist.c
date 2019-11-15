@@ -71,7 +71,8 @@ sqlt amend_SeqList(sqlt s, int elem, int newElem) {
 	return s;
 }
 //输出顺序表中元素的函数
-void display_SeqList(sqlt s) {
+void display_SeqList(sqlt s) 
+{
 	for (int i = 0; i < s.length; i++) {
 		printf("%d", s.head[i]);
 	}
