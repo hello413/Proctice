@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+ 
 #define Size 5
 typedef struct SeqList {
 	int* head;//声明了一个名为head的长度不确定的数组
