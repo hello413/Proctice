@@ -4,16 +4,13 @@
 'use strict';
 
 function normalize(arr) {
-    arr=arr.toString();
-    arr=arr.toLowerCase();
-    let x1 = arr.substring(0, 1).toUpperCase();
-    let x2 = arr.substring(1,5);
-    let x3 = arr.substring(5,6).toUpperCase();
-    let x4 = arr.substring(6,10);
-    let x5 = arr.substring(10, 11).toUpperCase();
-    let x6 = arr.substring(11);
-    console.log(x1+x2+x3+x4+x5+x6);
-    return x1+x2+x3+x4+x5+x6;    
+    function strs(str){
+        str=str.toLowerCase();
+        let x1 = str.substring(0, 1).toUpperCase();
+        let x2 = str.substring(1);
+        return x1+x2;
+    }
+    return arr.map(strs)  
 }
 
 // 测试:
