@@ -1,0 +1,31 @@
+/*先准备HTML数据：
+<dl id="drink-menu" style="border:solid 1px #ccc;padding:6px;">
+    <dt>摩卡</dt>
+    <dd>热摩卡咖啡</dd>
+    <dt>酸奶</dt>
+    <dd>北京老酸奶</dd>
+    <dt>果汁</dt>
+    <dd>鲜榨苹果汁</dd>
+</dl>
+*/
+运行得：
+/*摩卡
+    热摩卡咖啡
+酸奶
+    北京老酸奶
+果汁
+    鲜榨苹果汁 */
+
+
+/*
+var menu = document.getElementById('drink-menu');
+var drinks = document.getElementsByTagName('dt');
+var i, s;
+
+s = '提供的饮料有:';
+for (i=0; i<drinks.length; i++) {
+    s = s + drinks[i].innerHTML + ',';
+}
+console.log(s);*/
+/*运行得
+提供的饮料有:摩卡,酸奶,果汁,*/
