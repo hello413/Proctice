@@ -16,7 +16,7 @@ void t_3(int number)
 	cnt--;
 	for (int j = cnt; j >= 0; j -= 1)
 	{
-		printf("%d ", arr[j]);
+		printf("%d ", arr[j]); 
 	}
 }
 
