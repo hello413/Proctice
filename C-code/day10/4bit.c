@@ -8,7 +8,7 @@
 >    Êä³öÀı×Ó:7	*/
 int count_one_bits(unsigned int value)
 {
-	int result = 0, k = 1, i, num = 0;
+	int result = 0, k = 1, i, num = 0; 
 	while (value) {
 		i = value % 2;
 		result = k * i + result;
