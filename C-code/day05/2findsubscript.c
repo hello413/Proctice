@@ -19,7 +19,7 @@ int main()
 		{
 			left = arr[mid + 1];
 		}
-		else if(arr[mid] > find)
+		else if(arr[mid] > find) 
 		{
 			right = arr[mid - 1];
 		}
