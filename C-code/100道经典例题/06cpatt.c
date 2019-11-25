@@ -14,7 +14,7 @@ void out(int n, int m, int en)
 	if (en == 1)
 	{
 		printf("\n");
-	}
+	} 
 }
 int main()
 {
