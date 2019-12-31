@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,26 +11,26 @@
             margin-left: 50px;
             margin-top: 50px;
         }
-
+        
         #menu ul li {
-            width: 50px;background-color:pink;
+            width: 50px;
+            background-color: pink;
             text-align: center;
             margin-right: 5px;
             float: left;
             list-style: none;
         }
-
+        
         #menu ul li a {
             text-decoration: none;
         }
         
-
-        #menu ul .current{
+        #menu ul .current {
             background-color: gray;
         }
-
     </style>
 </head>
+
 <body>
     <div id="menu">
         <ul>
@@ -44,29 +45,22 @@
 
     <script>
         var menu = document.getElementById("menu");
-
         var ul = menu.firstElementChild;
-
-        for(var i = 0;i< ul.children.length;i++)
-        {
-            var li=ul.children[i];
-
+        for (var i = 0; i < ul.children.length; i++) {
+            var li = ul.children[i];
             var link = li.firstElementChild;
             link.onclick = linkClick;
         }
 
         function linkClick() {
-
-            for(var i = 0;i < ul.children.length;i++)
-            {
+            for (var i = 0; i < ul.children.length; i++) {
                 var li = ul.children[i];
                 li.className = '';
             }
-
             this.parentNode.className = 'current';
-
             return false;
         }
     </script>
 </body>
+
 </html>
