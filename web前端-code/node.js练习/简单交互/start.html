@@ -12,11 +12,11 @@
 
 <body>
     <input type="text" id="start">
-    <input type="button" id="button">
+    <button>确认</button>
 </body>
 <script>
-    $('#button').click(function () {
-        $.post(('http://127.0.0.1:8080/test'), {
+    $('button').click(function() {
+        $.post('http://127.0.0.1:8082/test', {
             name: $('#start').val()
         }).then(res => {
             alert(res);
