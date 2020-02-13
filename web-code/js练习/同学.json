@@ -1,0 +1,7 @@
+var obj = JSON.parse('{"name":"小明","age":14}', function (key, value) {
+    if (key === 'name') {
+        return value + '同学';
+    }
+    return value;
+});
+console.log(JSON.stringify(obj)); // {name: '小明同学', age: 14}

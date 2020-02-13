@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="点击" id="btn">
+    <div id="box"></div>
+
+    <script>
+        var btn =document.getElementById("btn");
+        var arrs =['a','b','c','d'];
+        btn.onclick = function () {
+            var box = document.getElementById("box");
+            var array = [];
+
+            array.push("<ul>");
+
+            for(var i =0;i <arrs.length;i++){
+                var arr = arrs[i];
+                array.push("<li>"+arr+"</li>");
+            }
+
+            array.push("</ul>");
+
+            box.innerHTML = array.join("");
+        }
+    </script>
+</body>
+</html>
