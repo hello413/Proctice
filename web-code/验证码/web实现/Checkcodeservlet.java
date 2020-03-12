@@ -33,11 +33,15 @@ public class Checkcodeservlet extends HttpServlet {
         String str="ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz0123456789";
         int size = 4;//生成验证码个数
         Random random = new Random();
+        String checkcode="";
+        //设置字体的小大
+        graphics.setFont(new Font("黑体",Font.BOLD,24));
         for (int i=1;i<=size;i++) {
             int index = random.nextInt(str.length());
             graphics.drawString(str.charAt(index) + "", width/(size+1)*i, height/2);
+            checkcode+=index;
         }
-
+        request.getSession().setAttribute("CHECKCODE",checkcode);
         //2.4干扰线
         graphics.setColor(Color.GREEN);
         int nums = random.nextInt(5) + 6;
@@ -48,6 +52,10 @@ public class Checkcodeservlet extends HttpServlet {
             int y2 = random.nextInt(height);
 
             graphics.drawLine(x1,x2,y1,y2);
+        }
+
+        //3.展示
+        ImageIO.write(image,"jpg",response.getOutputStream());
         }
 
         //3.展示
