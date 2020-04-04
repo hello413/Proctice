@@ -1,74 +1,60 @@
 
-# 猫狗收容所
+# 约瑟夫问题II
+
 ---
 ## 题目链接
 ---
-<a href="https://www.nowcoder.com/practice/6235a76b1e404f748f7c820583125c50?tpId=8&&tqId=11010&rp=3&ru=/activity/oj&qru=/ta/cracking-the-coding-interview/question-ranking">NowCoder</a>
+<a href="https://www.nowcoder.com/practice/ff063da83b1a4d91913dd1b1e8b01466?tpId=8&&tqId=11045&rp=2&ru=/activity/oj&qru=/ta/cracking-the-coding-interview/question-ranking">NowCoder</a>
 
 ## 题目描述
 ---
 
- 有家动物收容所只收留猫和狗，但有特殊的收养规则，收养人有两种收养方式，第一种为直接收养所有动物中最早进入收容所的，第二种为选择收养的动物类型（猫或狗），并收养该种动物中最早进入收容所的。
 
-   >给定一个操作序列int[][2] ope(C++中为vector<vector<int>>)代表所有事件。若第一个元素为1，则代表有动物进入收容所，第二个元素为动物的编号，正数代表狗，负数代表猫；若第一个元素为2，则代表有人收养动物，第二个元素若为0，则采取第一种收养方式，若为1，则指定收养狗，若为-1则指定收养猫。请按顺序返回收养的序列。若出现不合法的操作，即没有可以符合领养要求的动物，则将这次领养操作忽略。
+>约瑟夫问题是一个著名的趣题。这里我们稍稍修改一下规则。有n个人站成一列。并从头到尾给他们编号，第一个人编号为1。然后从头开始报数，第一轮依次报1，2，1，2...然后报到2的人出局。接着第二轮再从上一轮最后一个报数的人开始依次报1，2，3，1，2，3...报到2，3的人出局。以此类推直到剩下以后一个人。现在需要求的即是这个人的编号。
 
+给定一个int n，代表游戏的人数。请返回最后一个人的编号
 
-###### 实例1：
->**输入**：[[1,1],[1,-1],[2,0],[2,-1]]
-**返回**：[1,-1]
+**测试样例**:
+>输入：5
+>返回：5
 
-
-
- 
 
 
 ## 解题思路：
 ---
 
 ```java
+import java.util.LinkedList;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class CatDogAsylum {
-    public ArrayList<Integer> asylum(int[][] ope) {
+public class Joseph {
+    public int getResult(int n) {
         // write code here
-        List<Integer> asylum = new ArrayList<>();
-        ArrayList<Integer> result = new ArrayList<>();
-        for (int i = 0; i < ope.length; i++){
-            if (ope[i][0] == 1){
-                asylum.add(ope[i][1]);
-            }else {
-                switch (ope[i][1]){
-                    case 0:
-                        int temp = asylum.remove(0);
-                        result.add(temp);
-                        break;
-                    case 1:
-                        for (Integer k :asylum){
-                            if (k>0){
-                                asylum.remove(k);
-                                result.add(k);
-                                break;
-                            }
-                        }
-                        break;
-                    case -1:
-                        for (Integer k :asylum){
-                            if (k<0){
-                                asylum.remove(k);
-                                result.add(k);
-                                break;
-                            }
-                        }
-                        break;
-                    default:
-                        break;
+        if (n<1){
+            return -1;
+        }
+        LinkedList<Integer> list = new LinkedList<>();
+        for (int i = 1;i <= n;i++){
+            list.add(i);
+        }
+        int tem = 1;
+        while (list.size()>1){
+            tem++;
+            int num = list.size(),j=0;
+            for (int i = 0;i<num;i++){
+                //当然可以写成i%tem+1!=0,这儿是省略了
+                if (i%tem!=0){
+                    list.remove(j);
+                }else {
+                    j++;
                 }
             }
+            if(list.size()>1){
+                list.addFirst(list.removeLast());
+            }
         }
-        return result;
+        return list.remove(0);
     }
 }
+
 ```
 
