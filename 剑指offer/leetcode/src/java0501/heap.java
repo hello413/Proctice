@@ -1,6 +1,6 @@
 package java0501;
 
-public class Heap {
+public class heap {
     public void heapsort(int[] arr,int k){
         createheap(arr,0,k-1);
         for (int i=k;i<arr.length;i++){
@@ -41,6 +41,6 @@ public class Heap {
 
     public static void main(String[] args) {
         int[] arr = {95,6,78,15,6,1,2,4,33,5,7,21,15};
-        new Heap().heapsort(arr,3);
+        new heap().heapsort(arr,3);
     }
 }
