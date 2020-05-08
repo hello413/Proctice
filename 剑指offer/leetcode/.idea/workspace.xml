@@ -41,15 +41,37 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunManager" selected="Application.compare">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\雷金鹏\Desktop\Practice\剑指offer\leetcode\libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JDBCtest">
+    <configuration name="JDBCtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBCTest.JDBCtest" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KWellNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_0430.KWellNumber" />
       <module name="leetcode" />
@@ -104,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCtest" />
         <item itemvalue="Application.compare" />
         <item itemvalue="Application.heap" />
         <item itemvalue="Application.KWellNumber" />
@@ -137,6 +160,9 @@
       <workItem from="1588294721350" duration="4341000" />
       <workItem from="1588331802772" duration="3439000" />
       <workItem from="1588653505054" duration="7590000" />
+      <workItem from="1588746214684" duration="5577000" />
+      <workItem from="1588772315227" duration="1172000" />
+      <workItem from="1588816284136" duration="666000" />
     </task>
     <servers />
   </component>
@@ -144,22 +170,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588673601275">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1588768916265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588673601275" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588673601275">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1588768916265" />
+    <state x="445" y="157" key="FileChooserDialogImpl" timestamp="1588771962854">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588673601275" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588673601275">
+    <state x="445" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588771962854" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588773517431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588673601275" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588673601275">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588773517431" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588773517431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588673601275" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588773517431" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588773517430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588773517430" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588773517431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588773517431" />
     <state width="1493" height="245" key="GridCell.Tab.1.bottom" timestamp="1588258329764">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -176,10 +210,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588258329764" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1588653606189">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1588770042985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588653606189" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588770042985" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1588816286148">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588816286148" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
