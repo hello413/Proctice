@@ -33,7 +33,7 @@
 
 **分析**	本来我认为ArrayList底层上也是通过数组实现的，应该和数组一样在内存上是连续存储的，它有两个变量 DEFAULT_CAPACITY和size,通过size/DEFAULT_CAPACITY的比值，来实现扩容，有点像哈希因子是1的哈希表，具体可看源代码分析
 
-![1588659917203](C:\Users\雷金鹏\AppData\Roaming\Typora\typora-user-images\1588659917203.png)
+![1588659917203](.\Images\1588659917203.png)
 
 后来我翻了下官方文档，**文档上倒是没明确要求必须用 数组 实现**. 这个就不能排除其他的 JVM 的实现方式了. 但一般咱们常用的Oracle JDK 和 open JDK 对应的 Hotspot 虚拟机, 就是用数组实现的
 
