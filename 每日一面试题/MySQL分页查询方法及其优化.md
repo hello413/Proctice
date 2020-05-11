@@ -28,7 +28,7 @@ select * from your_table where pa >= 1000 order by pk asc limit 0,20;
 select * from student where id_pk > (pageNum*10) limit m;//此时pageNum从0开始计数的
 ```
 
-![1588943150012](.\Images\1588943150012.png)
+![1588943150012](Images/1588943150012.png)
 
 适应场景: 适用于**数据量多**的情况(元组数上万)
 
