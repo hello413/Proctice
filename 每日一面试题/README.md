@@ -100,3 +100,15 @@
 
 - [高并发的实现](高并发session的实现.md)
 
+
+## 今天的面试题(2020-06.28) —— 第26天
+
+- [HashMap中如果一个对象为 key 时，hashCode 和 equals 方法的用法要注意什么？](HashMap中如果一个对象为 key 时，hashCode 和 equals 方法的用法要注意什么.md)
+
+## 今天的面试题(2020-06.30) —— 第27天
+
+- [HashMap 是线程安全的么？那需要线程安全需要用到什么？](HashMap 是线程安全的么？那需要线程安全需要用到什么.md)
+
+## 今天的面试题(2020-07.01) —— 第28天
+
+- [ArrayList和LinkedList的区别](ArrayList和LinkedList的区别.md)
