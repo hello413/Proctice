@@ -8,7 +8,7 @@ create table user(   -- 创建表
 	age int,
 	address varchar(32),
 	qq	varchar(20),
-    username varchar(20) not null,
+    username varchar(20),
 	password varchar(20),
 	email varchar(50)
 );
