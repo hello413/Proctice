@@ -43,6 +43,6 @@ Map concurrentHashMap = new ConcurrentHashMap<>();
 
  利用CAS算法  ，继承 ReentrantLock 来进行加锁 
 
-##### SynchronizedMap
+##### SynchronizedMap方法
 
  实际上是在Collections类中维护了一个静态内部类SynchronizedMap，该内部类中维护了一个普通的map和一个对象排斥锁mutex 
