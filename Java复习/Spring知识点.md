@@ -98,7 +98,7 @@ AOP：面向切面编程，将业务逻辑的各个部分进行隔离
 
 1. JDK实现
 
-   > 通过Proxy的newProxyInstance()方法和InvocationHangler来实现，前提就是被代理类需要实现某一个接口，通过接口来使用
+   > 通过Proxy的newProxyInstance()方法和InvocationHangler来实现，前提就是被代理类需要实现某一个接口，运行时动态的生成代理类(可以是内部类)
    >
    > 原理：
    >
