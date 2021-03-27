@@ -58,13 +58,20 @@
       <recent name="C:\Users\雷金鹏\Desktop\Practice\剑指offer\leetcode\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JDBCtest">
-    <configuration name="JDBCtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBCTest.JDBCtest" />
+  <component name="RunManager" selected="Application.Main5">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0318.Main5" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDBCTest.*" />
+          <option name="PATTERN" value="java0318.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KWellNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0430.KWellNumber" />
+    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0320.Main7" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0430.*" />
+          <option name="PATTERN" value="java0320.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution202" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0430.Solution202" />
+    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0320.Main8" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0430.*" />
+          <option name="PATTERN" value="java0320.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,25 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_0505.compare" />
+    <configuration name="Main9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0320.Main9" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_0505.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java0501.heap" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java0501.*" />
+          <option name="PATTERN" value="java0320.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JDBCtest" />
-        <item itemvalue="Application.compare" />
-        <item itemvalue="Application.heap" />
-        <item itemvalue="Application.KWellNumber" />
-        <item itemvalue="Application.Solution202" />
+        <item itemvalue="Application.Main5" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main9" />
+        <item itemvalue="Application.Main8" />
+        <item itemvalue="Application.Main7" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +159,8 @@
       <workItem from="1588816284136" duration="666000" />
       <workItem from="1589184533636" duration="1313000" />
       <workItem from="1589251070923" duration="163000" />
+      <workItem from="1615624724111" duration="40708000" />
+      <workItem from="1616468766526" duration="2851000" />
     </task>
     <servers />
   </component>
@@ -172,58 +168,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1588768916265">
+    <state width="1493" height="143" key="GridCell.Tab.0.bottom" timestamp="1616468891053">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1588768916265" />
-    <state x="445" y="157" key="FileChooserDialogImpl" timestamp="1589251111938">
+    <state width="1493" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616468891053" />
+    <state width="1493" height="143" key="GridCell.Tab.0.center" timestamp="1616468891053">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="445" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589251111938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588773517431">
+    <state width="1493" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616468891053" />
+    <state width="1493" height="143" key="GridCell.Tab.0.left" timestamp="1616468891052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588773517431" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588773517431">
+    <state width="1493" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616468891052" />
+    <state width="1493" height="143" key="GridCell.Tab.0.right" timestamp="1616468891053">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588773517431" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588773517430">
+    <state width="1493" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616468891053" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1616468766693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588773517430" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588773517431">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1616468766693" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1616067107195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588773517431" />
-    <state width="1493" height="245" key="GridCell.Tab.1.bottom" timestamp="1588258329764">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="245" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588258329764" />
-    <state width="1493" height="245" key="GridCell.Tab.1.center" timestamp="1588258329764">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="245" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588258329764" />
-    <state width="1493" height="245" key="GridCell.Tab.1.left" timestamp="1588258329764">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="245" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588258329764" />
-    <state width="1493" height="245" key="GridCell.Tab.1.right" timestamp="1588258329764">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588258329764" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1588770042985">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588770042985" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1589251070298">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589251070298" />
-    <state x="178" y="29" key="new project wizard" timestamp="1589185080160">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="29" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589185080160" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1616067107195" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
